@@ -1,6 +1,6 @@
 {
   "name": "@machinomy/types-ethereumjs-tx",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "TypeScript declaration for ethereumjs-tx",
   "main": "index.d.ts",
   "types": "index.d.ts",
