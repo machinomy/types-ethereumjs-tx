@@ -1,5 +1,5 @@
 declare module "ethereumjs-tx" {
-  import { Buffer } from "buffer";
+  import { Buffer } from "safe-buffer";
 
   class Tx {
     constructor (raw: Buffer|Tx.TransactionProperties);
