@@ -16,6 +16,6 @@
   "homepage": "https://github.com/machinomy/types-ethereumjs-tx#readme",
   "devDependencies": {},
   "dependencies": {
-    "@machinomy/types-safe-buffer": "^0.0.1"
+    "safe-buffer": "^5.1.2"
   }
 }
