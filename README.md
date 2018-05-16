@@ -2,5 +2,5 @@
 
 # Installation
 ```
-yarn add https://github.com/machinomy/types-ethereumjs-tx -D
+yarn add @machinomy/types-ethereumjs-tx -D
 ```
