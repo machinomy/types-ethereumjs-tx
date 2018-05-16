@@ -5,7 +5,7 @@ declare module 'ethereumjs-tx' {
   class Tx {
     constructor (raw: Buffer|Tx.TransactionProperties)
     sign(privateKey: Buffer): void
-    serialize(): string
+    serialize(): Buffer
   }
 
   namespace Tx {
