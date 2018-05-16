@@ -9,15 +9,16 @@ declare module "ethereumjs-tx" {
 
   namespace Tx {
     interface TransactionProperties {
-      nonce: Buffer,
-      gasPrice: Buffer,
-      gasLimit: Buffer,
-      to: Buffer,
-      value: Buffer,
-      data: Buffer,
-      v: Buffer
-      r: Buffer
-      s: Buffer,
+      nonce?: Buffer|number|string
+      gasPrice?: Buffer|number|string
+      gasLimit?: Buffer|number|string
+      gas?: Buffer|number|string
+      to?: Buffer|string
+      value?: Buffer|string|number
+      data?: Buffer|string
+      v?: Buffer | number | string
+      r?: Buffer | number | string
+      s?: Buffer | number | string
       chainId?: number
     }
   }
