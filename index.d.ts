@@ -15,7 +15,7 @@ declare module 'ethereumjs-tx' {
       gasLimit?: Buffer | BigNumber.BigNumber | number | string
       gas?: Buffer | BigNumber.BigNumber | number | string
       to?: Buffer | string
-      value?: Buffer | string | number
+      value?: Buffer | string | number | BigNumber.BigNumber
       data?: Buffer | string
       v?: Buffer | number | string
       r?: Buffer | number | string
