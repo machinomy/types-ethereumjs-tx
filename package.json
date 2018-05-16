@@ -16,6 +16,7 @@
   "homepage": "https://github.com/machinomy/types-ethereumjs-tx#readme",
   "devDependencies": {},
   "dependencies": {
+    "@types/bignumber.js": "^4.0.2",
     "safe-buffer": "^5.1.2"
   }
 }
